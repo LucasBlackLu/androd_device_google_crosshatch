@@ -27,3 +27,4 @@ set_prop(hal_health_default, vendor_battery_defender_prop)
 
 allow hal_health_default self:capability2 wake_alarm;
 allow hal_health_default mnt_vendor_file:dir search;
+allow hal_health_default hal_health_default:dir read;
